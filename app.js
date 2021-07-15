@@ -306,3 +306,178 @@
 // var a = new Date()
 // var n = a.setFullYear(2020, 11, 31)
 // alert(a)
+                                                    
+                                                   //FUNCTION
+                                              //Assignment # 35-40
+
+//Q1:
+// function tellTime(){
+//     var a =new Date()
+//     alert(a)
+// }
+// tellTime()
+
+//Q2:
+// function greetFullName(){
+// var firstName = prompt("Enter your first name")
+// var firstName1 = firstName.slice(0,1).toUpperCase()+firstName.slice(1).toLowerCase()
+// var lastName = prompt("Enter your last name")
+// var lastName2 = lastName.slice(0,1).toUpperCase()+lastName.slice(1).toLowerCase()
+// var fullName =firstName1+" "+lastName2
+// alert("Fullname: "+fullName)
+// }
+// greetFullName()
+
+//Q:3
+// function addTwoNo (){
+// var a = +prompt("Enter first no")
+// var b = +prompt("Enter second no")
+//  return a+b
+// }
+// alert(addTwoNo())
+
+//Q4
+// function MathOperation(num1,num2,opr){
+    // if(opr === "+"){
+    //  return num1+num2
+    // }
+    // else if(opr === "-"){
+    //     return num1 - num2
+    // }
+    // else if(opr === "*"){
+    // return num1 *num2
+    // }
+    // else if(opr === "/"){
+    //     return num1 /num2
+    //     }
+        
+    //     else {
+    //         console.log("Incorrect password")
+    //     }
+            
+    // }
+    
+    // console.log(MathOperation(+prompt("num1"),+prompt("num2"),prompt("operator")))
+
+//Q5
+// function squareNo (a){
+// var square = a*a
+// alert("Square of "+a+" is "+square)
+// }
+// squareNo(prompt("Enter a positive number"))
+
+//Q6:
+// function findFactorial(){
+// var a =prompt("Enter a number")
+// for (var i =a-1 ;i>0 ; i--){
+//     a = a*i
+    
+// }
+// alert(a)
+// }
+// findFactorial()
+
+//Q7:
+// function counting(){
+//     var a = prompt("Enter a first number")
+//     var b = prompt("Enter a second number")
+//     for (var i=a ; i<=b; i++){ 
+//     console.log(i)
+//     }
+//     }
+//     counting()
+    
+//Q8:
+// function calculateHypotenuse(base,perpendicular){
+// var hyp = base + perpendicular
+// return hyp}
+// calculateHypotenuse(5,5)
+// var hyp = calculateHypotenuse(5,5)
+// alert("hypotenuse is "+hyp)
+// function calSquare(){
+// var hypSquare = hyp*hyp
+// return hypSquare
+// }
+// var hypsqr =calSquare()
+// alert("hypotenuse^2 is "+hypsqr)
+
+//Q9:
+//argument as value
+// function areaOfRectangle(width,height){
+// var A = width * height
+// alert(A)
+// }
+// areaOfRectangle(2,2)
+
+//argument as value
+// var width = 5;
+// var height = 5
+// function areaOfRectangle(){
+//     var A = width * height
+//     alert(A)
+//     }
+//     areaOfRectangle(width,height)
+
+//Q10:
+// function palindromeCheck(string){
+// var str1 = prompt("Enter a string1")
+// var split1 = str1.split()
+// var reverse1 = split1.reverse()
+// var str1join1 = reverse1.join()
+// if(str1join1===string){
+// console.log("string is palindrome")
+// }
+// else
+// {
+//     console.log("Not Palindrome")
+// }
+// }
+// palindromeCheck(prompt("Enter a string"))))
+
+//Q11:
+// function capatilizeFirstLetter(string){
+//     return string.charAt(0).toUpperCase()+string.slice(1).toLowerCase()
+    
+//     }
+//      console.log(capatilizeFirstLetter(prompt("Enter a string")))
+
+//Q12:
+// function longestWord(text) {
+//     var result = text.split(' ').reduce((maxLengthWord, currentWord) => {
+//         if (currentWord.length > maxLengthWord.length) {
+//             return currentWord
+//         } else {
+//             return maxLengthWord
+//         }
+//     }, "")
+//     return result
+// }
+// console.log(longestWord("Web Development Tutorial"));
+
+//Q:13
+// function char_count(str, letter1) 
+// {
+//  var letter1_Count = 0;
+//  for (var position = 0; position < str.length; position++) 
+//  {
+//     if (str.charAt(position) == letter1) 
+//       {
+//       letter1_Count += 1;
+//       }
+//   }
+//   return letter1_Count;
+// }
+// console.log(char_count('w3resource.com', 'o'));
+
+//Q:14
+// function calCircumference(r){
+//     var circumferenceOfCircle = 2*(Math.PI)*r
+// alert("The circumference is "+circumferenceOfCircle.toFixed(2))
+// }
+// calCircumference(2)
+
+// function calArea(r){
+// var AreaOfCircle = Math.PI*(r*r)
+// alert("The area is "+AreaOfCircle.toFixed(2))
+// }
+// calArea(4)
